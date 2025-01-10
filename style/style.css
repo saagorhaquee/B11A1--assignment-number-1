@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.fira-code-normal {
+  font-family: "Fira Code", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+/* nav  */
+nav{
+    margin: 24px 160px 24px 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-btn{
+    padding: 15px 30px;
+    margin-top: 39px;
+    margin-bottom: 39px;
+    font-size: 18px;
+    font-weight: 600px;
+    border-radius: 8px;
+    border-color: rgb(0, 106, 80);
+
+}
+/* hero  */
+.hero{
+    background-color: rgb(198, 228, 214);
+    border-radius: 24px;
+    height: 560px;
+    /* width: 1280px; */
+}
+.sub-title{
+    font-size: 24px;
+    font-weight: 500px;
+    color: rgba(14, 14, 14, 0.5);
+}
+/* shared style  */
+.nav-title{
+    font-size: 32px;
+    font-weight: 700px;
+    color: rgb(14, 14, 14);
+}
+.title{
+    font-size: 40px;
+    font-weight: 700px;
+    color: rgb(14, 14, 14);
+}
+.box-title{
+    font-size: 20px;
+    font-weight: 700px;
+    color: rgba(14, 14, 14, 0.8);
+}
+paragraph{
+    font-size: 10px;
+    font-weight: 400px;
+    color: rgba(14, 14, 14, 0.7);
+}
+.all-btn{
+    font-size: 18px;
+    font-weight: 600px;
+    color: rgb(255, 255, 255);
+}
