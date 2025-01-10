@@ -17,23 +17,40 @@ nav{
 }
 .nav-btn{
     padding: 15px 30px;
-    margin-top: 39px;
-    margin-bottom: 39px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     font-size: 18px;
     font-weight: 600px;
     border-radius: 8px;
     border-color: rgb(0, 106, 80);
 
 }
+main{
+    margin: 0px 130px 0px 130px;
+}
 /* hero  */
-.hero{
+main .hero{
     background-color: rgb(198, 228, 214);
     border-radius: 24px;
-    height: 560px;
+    height: 380px;
     /* width: 1280px; */
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    padding: 50px 70px 50px 70px;
+    
 }
-.sub-title{
-    font-size: 24px;
+ main .hero-title{
+    font-size: 40px;
+    font-weight: 700px;
+    color: rgb(14, 14, 14);
+    width: 520px;
+    letter-spacing: 0%;
+}
+
+main .hero .hero-content .sub-title{
+    font-size: 20px;
     font-weight: 500px;
     color: rgba(14, 14, 14, 0.5);
 }
@@ -43,23 +60,48 @@ nav{
     font-weight: 700px;
     color: rgb(14, 14, 14);
 }
-.title{
-    font-size: 40px;
+main .pillars-of-bangladesh-2 .title{
+    font-size: 30px;
     font-weight: 700px;
     color: rgb(14, 14, 14);
 }
-.box-title{
+main .boxs.box-title{
     font-size: 20px;
     font-weight: 700px;
     color: rgba(14, 14, 14, 0.8);
 }
-paragraph{
-    font-size: 10px;
+main .boxs{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    /* background: rgb(255, 255, 255); */
+    padding: 24px;
+    /* width: 280px; */
+    display: flex;
+    /* gap: 35px; */
+    justify-content: space-evenly;
+}
+main .boxs .paragraph{
+    font-size: 16px;
     font-weight: 400px;
     color: rgba(14, 14, 14, 0.7);
+    width: 254px
+   
 }
-.all-btn{
+main .hero .hero-content .all-btns{
     font-size: 18px;
     font-weight: 600px;
     color: rgb(255, 255, 255);
+    padding: 17px 34px 17px 34px;
+    margin: 24px 0px;
+    border-radius: 8px;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+}
+.sub-title{
+    font-size: 24px;
+    font-weight: 500px;
+    color: rgba(14, 14, 14, 0.5);
+    
+}
+main .hero .image{
 }
