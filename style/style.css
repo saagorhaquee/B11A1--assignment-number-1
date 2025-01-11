@@ -2,11 +2,14 @@
     margin: 0px;
     padding: 0px;
 }
-.fira-code-normal {
+/* .fira-code-normal{
   font-family: "Fira Code", serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
+} */
+body{
+    font-family: 'Fira Sans';font-size: auto;
 }
 /* nav  */
 nav{
@@ -42,7 +45,7 @@ main .hero{
     
 }
  main .hero-title{
-    font-size: 40px;
+    font-size: 47px;
     font-weight: 700px;
     color: rgb(14, 14, 14);
     width: 520px;
@@ -60,32 +63,50 @@ main .hero .hero-content .sub-title{
     font-weight: 700px;
     color: rgb(14, 14, 14);
 }
+main .pillars-of-bangladesh-2{
+    justify-items: left;
+}
 main .pillars-of-bangladesh-2 .title{
-    font-size: 30px;
+    margin-top: 80px;
+    font-size: 24px;
     font-weight: 700px;
     color: rgb(14, 14, 14);
+    
 }
-main .boxs.box-title{
+main .boxs .box-title{
+    margin: 15px 0px 15px 0px;
     font-size: 20px;
     font-weight: 700px;
     color: rgba(14, 14, 14, 0.8);
 }
 main .boxs{
-    border: 1px solid rgba(14, 14, 14, 0.15);
-    border-radius: 16px;
-    /* background: rgb(255, 255, 255); */
+   
     padding: 24px;
     /* width: 280px; */
     display: flex;
-    /* gap: 35px; */
+    gap: 25px;
     justify-content: space-evenly;
+    width: 200x;
+    
+    
 }
-main .boxs .paragraph{
-    font-size: 16px;
+main .boxs .box .paragraph{
+        font-size: 12px;
     font-weight: 400px;
     color: rgba(14, 14, 14, 0.7);
     width: 254px
+    
    
+}
+main .boxs .box{
+    margin: 18px 0px 80px 0px;
+    padding: 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    width: 200px
+    
+    
+    
 }
 main .hero .hero-content .all-btns{
     font-size: 18px;
