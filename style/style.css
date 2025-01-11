@@ -83,7 +83,9 @@ main .pillars-of-bangladesh-2 .title{
         border-radius: 8px;
         background: rgb(0, 106, 80);
 }
-
+.all-btns:hover{
+    background-color: rgb(71, 82, 82);
+}
 main .boxs .box-title{
     margin: 15px 0px 0px 0px;
     font-size: 20px;
@@ -134,6 +136,9 @@ main .hero .hero-content .all-btns{
     border-radius: 8px;
     background: rgb(0, 106, 80);
 }
+main .hero .hero-content .all-btns:hover{
+    background-color: rgb(71, 82, 82);
+}
 .sub-title{
     font-size: 24px;
     font-weight: 500px;
@@ -181,6 +186,12 @@ main .source-card .all-btns{
     padding: 12px 28px
     
 }
+main .source-card .card .all-btns:hover{
+    background-color: rgb(71, 82, 82);
+}
+main .source-card .all-btns:hover{
+    background-color: rgb(71, 82, 82);
+}
 main .the-vision-of-future .source-card{
     display: flex;
     /* gap: 10px; */
@@ -222,6 +233,9 @@ main .the-vision-of-future .source-card .orange-box {
         border-radius: 8px;
         background: rgb(0, 106, 80);
 
+    }
+    main .news .news-btns:hover{
+        background-color: rgb(71, 82, 82);
     }
     main .news{
         border-radius: 24px;
@@ -272,6 +286,9 @@ main .the-vision-of-future .source-card .orange-box {
     font-weight: bold;
     background: rgb(255, 255, 255);
     }
+    main .donate .donate-btn:hover{
+        background-color: rgb(71, 82, 82);
+    }
     main .donate .donate-btns{
         
         display: flex;
@@ -304,6 +321,9 @@ main .the-vision-of-future .source-card .orange-box {
         border-radius: 8px;
         background: rgb(0, 106, 80);
         
+    }
+    main .donate .donate-btn-2:hover{
+        background-color: rgb(71, 82, 82);
     }
     .title{
         font-size: 32px;
