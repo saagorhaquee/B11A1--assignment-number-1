@@ -74,7 +74,7 @@ main .pillars-of-bangladesh-2 .title{
     
 }
 main .boxs .box-title{
-    margin: 15px 0px 15px 0px;
+    margin: 15px 0px 0px 0px;
     font-size: 20px;
     font-weight: 700px;
     color: rgba(14, 14, 14, 0.8);
@@ -91,6 +91,8 @@ main .boxs{
     
 }
 main .boxs .box .paragraph{
+    margin-top: 0px;
+    
         font-size: 12px;
     font-weight: 400px;
     color: rgba(14, 14, 14, 0.7);
@@ -98,6 +100,7 @@ main .boxs .box .paragraph{
     
    
 }
+
 main .boxs .box{
     margin: 18px 0px 80px 0px;
     padding: 24px;
@@ -124,5 +127,69 @@ main .hero .hero-content .all-btns{
     color: rgba(14, 14, 14, 0.5);
     
 }
-main .hero .image{
+/* quata  */
+main .quata{
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
 }
+
+
+ .paragraph{
+    padding-top: 30px;
+    font-size: 12px;
+font-weight: 400px;
+color: rgba(14, 14, 14, 0.7);
+}
+.quata-title{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+/* The Vision of Future  */
+main .source-card .card {
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+    margin: 18px 0px 80px 0px;
+    padding: 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    width: 300px
+    
+}
+main .source-card .all-btns{
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    margin: 24px 0px;
+    padding: 11px 20px 11px 20px;
+    font-size: 16px;
+    font-weight: 600px;
+    color: rgb(255, 255, 255);
+    padding: 12px 28px
+    
+}
+main .the-vision-of-future .source-card{
+    display: flex;
+    /* gap: 10px; */
+    justify-content: space-around;
+    
+    }
+main .the-vision-of-future .source-card .green-box {
+        
+border-radius: 16px;
+
+background-color: rgb(154, 216, 187);
+}
+main .the-vision-of-future .source-card .green-btn{
+    background-color: rgb(9, 161, 92);
+}
+main .the-vision-of-future .source-card .orange-box {
+        
+    border-radius: 16px;
+    
+    background-color: rgb(247, 235, 207);
+    
+    }
+    main .the-vision-of-future .source-card .orange-btn{
+        background-color: rgb(255, 194, 57);
+    }
