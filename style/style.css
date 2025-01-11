@@ -24,6 +24,9 @@ nav{
     border-color: rgb(0, 106, 80);
 
 }
+.nav-btn:hover{
+    background-color: rgb(71, 82, 82);
+}
 main{
     margin: 0px 130px 0px 130px;
 }
@@ -71,7 +74,16 @@ main .pillars-of-bangladesh-2 .title{
 }
 .all-btns{
     border: none;
+    font-size: 18px;
+        font-weight: 600px;
+        color: rgb(255, 255, 255);
+        padding: 14px 28px 14px 28px;
+        margin: 10px 0px;
+        border-radius: 8px;
+        border-radius: 8px;
+        background: rgb(0, 106, 80);
 }
+
 main .boxs .box-title{
     margin: 15px 0px 0px 0px;
     font-size: 20px;
@@ -291,8 +303,79 @@ main .the-vision-of-future .source-card .orange-box {
         border-radius: 8px;
         border-radius: 8px;
         background: rgb(0, 106, 80);
-
+        
     }
+    .title{
+        font-size: 32px;
+        font-weight: 700px;
+        color: rgb(14, 14, 14);
+            
+        }
     main .donate .clr-btn{
         background-color: rgb(198, 228, 214);
+    }
+    footer{
+        
+        align-items:center ;
+        text-align: center;       
+        
+    }
+    footer .footer{
+        background-color: rgb(198, 228, 214);
+        border-radius: 24px;
+        margin: 0px 130px 0px 130px;
+        padding: 20px ;
+    }
+    footer .footer-title{
+    margin-top: 50px;
+    
+    font-size: 32px;
+    font-weight: 700px;
+    color: rgb(14, 14, 14);
+        
+    }
+    footer .footer-paragraph{
+        margin-bottom: 20px;
+        font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    }
+    footer .input-2 {
+    width: 450px;
+    height: 12px;
+    border-radius: 8px 0px 0px 8px;
+    background: rgb(255, 255, 255);
+    border: none;
+    padding: 18px 40px;
+    font-size: 12px;
+
+    }
+    footer .Subscribe{
+        border-radius: 0px 8px 8px 0px;
+    }
+    footer .input-btn{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        
+    }
+    footer hr{
+        margin: 32px 130px;
+        
+    }
+    footer .footer-nav{
+        margin: 40px;
+        padding-top: 50px;
+    }
+    footer .social-icon{
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        padding-bottom: 40px;
+    }
+    footer .last{
+        background-color: rgb(255, 255, 255);
+        
     }
