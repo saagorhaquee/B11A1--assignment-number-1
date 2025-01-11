@@ -73,6 +73,9 @@ main .pillars-of-bangladesh-2 .title{
     color: rgb(14, 14, 14);
     
 }
+.all-btns{
+    border: none;
+}
 main .boxs .box-title{
     margin: 15px 0px 0px 0px;
     font-size: 20px;
@@ -107,6 +110,7 @@ main .boxs .box{
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     width: 200px
+    
     
     
     
@@ -192,4 +196,46 @@ main .the-vision-of-future .source-card .orange-box {
     }
     main .the-vision-of-future .source-card .orange-btn{
         background-color: rgb(255, 194, 57);
+    }
+
+    /* news section  */
+    main .news .time-date{
+        display: flex;
+        gap: 10px;
+    }
+    main .news .news-btns{
+        font-size: 18px;
+        font-weight: 600px;
+        color: rgb(255, 255, 255);
+        padding: 17px 34px 17px 34px;
+        margin: 24px 0px;
+        border-radius: 8px;
+        border-radius: 8px;
+        background: rgb(0, 106, 80);
+
+    }
+    main .news{
+        border: 1px solid black;
+        border-radius: 24px;
+        padding: 10px;
+
+        background: rgb(255, 255, 255);;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    main .news .news-paragraph{
+        width: 700px;
+        margin-top: 0px;
+    }
+    main .news .news-title{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    main .news .time-date{
+        margin-top: 10px;
+    }
+    main .news .news-image{
+        border-radius: 24px;
+        height: 250px;
     }
